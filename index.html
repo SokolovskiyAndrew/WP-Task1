@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="form col s6 md3">
+            <h3 class="title center">Access form</h3>
+            <p class="description grey-text center">Please, fill the gaps</p>
+            <form action="" method="GET" id="ajax_form">
+                <label> Your name </br>
+                    <input type="text" name="name">
+                </label></br>
+                <div class="red-text">
+
+                </div>
+                <label> Your age </br>
+                    <input type="number" name="age">
+                </label>
+                <div class="red-text">
+
+                </div>
+                <div class="center">
+                    <!-- <input type="submit" name="submit" value="submit" class="btn brand z-depth-0"> -->
+                    <input type="button" value="Submit" class="btn brand z-depth-0" id="submit">
+                </div>
+            </form>
+        </div>
+        <div class="result col s6 center" id="result_form"></div>
+    </section>
+
+    <!-- <script>
+        let figures = [5, 8, 1, 4, 9, 2, 10, 7, 3, 6];
+        let ascend = [];
+
+        for (let i = 0; i < figures.length; i++) {
+            for (let j = 0; j < figures.length; j++) {
+                if (figures[i] < figures[j]) {
+                    let task = figures[i];
+                    figures[i] = figures[j];
+                    figures[j] = task;
+                }
+            }
+        }
+
+        console.log(figures);
+    </script> -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="ajax.js"></script>
+</body>
+
+</html>
